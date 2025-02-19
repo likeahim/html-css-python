@@ -1,0 +1,16 @@
+html {
+    margin-left: 5px;
+}
+
+.top {
+    color: black;
+    background: grey;
+}
+
+.boutme {
+    color: darkblue;
+}
+
+.name {
+    font-weight: normal;
+}

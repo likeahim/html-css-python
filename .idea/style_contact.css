@@ -1,0 +1,35 @@
+html {
+    margin-left: 20px;
+}
+.top {
+    color: black;
+    background: grey;
+}
+
+.boutme {
+    color: darkblue;
+}
+
+.name {
+    font-weight: normal;
+}
+
+ul {
+    font-size: 20px;
+}
+
+textarea {
+    width: 15%;
+    height: 60px;
+    resize: both;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid #888;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+}
