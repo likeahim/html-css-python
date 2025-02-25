@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %}Moja Strona{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<h1 class="top">Witaj na mojej stronie domowej</h1>
+<img src="http://img.90minut.pl/pix/players/panko_michal.jpg?t=1739981316" alt="Pic from fupa" title="me">
+
+{% block content %}{% endblock %}
+
+<h3>
+    <a href="{{ url_for('about') }}">O mnie</a> |
+    <a href="{{ url_for('contact') }}">Kontakt</a>
+</h3>
+</body>
+</html>
